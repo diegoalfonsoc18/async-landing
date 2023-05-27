@@ -33,7 +33,7 @@ async function fetchData(urlApi) {
     </div>
     `
       )
-      .slice(0, 12)
+      .slice(0, 16)
       .join("")}
      
     `;
