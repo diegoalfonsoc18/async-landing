@@ -30,7 +30,9 @@ async function fetchData(urlApi) {
         <span aria-hidden="true" class="absolute inset-0"></span>
             ${planeta.name}
         </h3>
-        <p>${planeta.imgSrc.imgDescription}</p>
+        <div>
+          <p>${planeta.description}</p>
+        </div>
         </div>
     </div>
     `
